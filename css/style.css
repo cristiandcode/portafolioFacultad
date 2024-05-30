@@ -84,4 +84,38 @@ a {
     font-size: large;
     
 }
+/*Media queries*/
+/*small Celular*/
+
+@media(max-width: 767px){
+    .titulo{
+        justify-content: center;
+        
+    }
+.navigation{
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    
+}   
+.container-sobrenosotros{
+    width: 100%;
+    padding: 1;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+    font-size: small;
+    flex-direction: column;
+    }
+.container-experiencia, .container-estudios {
+    width: 100%;
+    margin: 0rem;
+}
+
+.experiencia, .estudios {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: small;
+    }  
+}
 
