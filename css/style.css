@@ -135,5 +135,21 @@ a {
         width: 75%;
     }
     }
+    /* Large (Escritorio, pantallas grandes 1024px y superiores*/
+@media (min-width: 1024px){
+    .titulo {
+        justify-content: flex-start;
+    }
+    .navigation{
+        gap: 3rem;
+        justify-content: flex-end;
+        margin: 0 3rem;
+
+    }
+    .experiencia, .estudios{
+        width: 75%;
+    }
+}
+
 
 
