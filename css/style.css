@@ -118,4 +118,22 @@ a {
     font-size: small;
     }  
 }
+/*Medium*/
+@media (min-width: 768px) and (max-width: 1023px){
+    .titulo{
+        justify-content: center;
+    }
+    .container-sobrenosotros{
+        justify-content: center;
+        width: 100%;
+    }
+    .navigation{
+        gap:2rem;
+        justify-content: center;
+    }
+    .experiencia, .estudios{
+        width: 75%;
+    }
+    }
+
 
