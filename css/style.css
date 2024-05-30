@@ -1,0 +1,12 @@
+:root {
+    --body-bg-color: rgb(43,43,70);
+    --text-color: white;
+    --colorh1-color: rgb(215, 211, 211);
+}
+/*Aplicando variable creada en el root al body de nuestra web*/
+/*Reemplazee el body con el uso de las variables css*/
+body {
+    background: var(--body-bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
