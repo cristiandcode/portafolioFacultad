@@ -40,4 +40,48 @@ h1,h2 {
     background-color: #f0eaea1a;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
 }
+a{
+    text-decoration: none;
+    color: rgb(215,211,211);
+}
+.sobrenosotros{
+    display: flex;
+    justify-content: center;
+}
+
+.container-sobrenosotros{
+    display: flex;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 5rem;
+    line-height: 2.5rem;
+    font-size: large;
+    color: azure;
+    gap: 5em; 
+    align-items: center;   
+}
+.img-perfil{
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+}
+.experiencia, .estudios{
+    display: flex;
+    justify-content: center;
+    
+    color: azure;
+}
+
+.container-experiencia, .container-estudios{
+    width: 100%;
+    padding-left: 2rem;
+    line-height: 2.5rem;
+    font-size: large;
+    
+}
 
