@@ -1,0 +1,35 @@
+.contacto{
+    margin-top: 5rem;
+    padding: 1rem;
+    text-align: center;
+    width: fit-content;
+}
+
+.contacto h2{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+iframe{
+    border: none;
+    width: 85vh;
+    height: 20rem;
+    
+}
+
+@media (max-width: 767px){
+    iframe{
+        width: 100%;
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    iframe{
+        width: 50vh;
+    }
+}
+
+@media(min-width: 1024px){
+    iframe{
+        padding-left: 180px;
+        
+    }
+}
