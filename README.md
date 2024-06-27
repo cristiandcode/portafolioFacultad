@@ -1,3 +1,3 @@
 # Portafolio Facultad 
 
-<h1>Grupo "Dinamic Devs"</h1>
+<h2>Grupo "Dinamic Devs"</h2>
